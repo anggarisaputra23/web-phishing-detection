@@ -17,10 +17,10 @@ st.write("created by : [@anggaridwisaputra](https://www.linkedin.com/in/anggari-
 select_model = st.sidebar.selectbox("Which model do you want to use?", ("Logistic Regression", "Decision Tree", "Random Forest", "Neural Network", "The Best Model"))
 select_dataset = st.sidebar.selectbox("Which dataset do you want to use?", ("Imbalance dataset", "Balance dataset"))
 st.sidebar.write("""
-                    Download the ipynb file to train the model
+                    [Download the ipynb file to train the model](https://github.com/anggarisaputra23/web-phishing-detection/blob/main/final_project.ipynb)
                  """)
 st.sidebar.write("""
-                    Download the streamlit.py file
+                    [Download the streamlit.py file](https://github.com/anggarisaputra23/web-phishing-detection/blob/main/finalprojectstreamlit.py)
                  """)
 st.info("""
     This App predicts whether the website is considered as Phishing or not. As the number of phishing attack increases over time (graph below). It is essential to deliver a machine learning that could prevent phishing attack)
